@@ -1,4 +1,5 @@
-import 'package:belajar_flutter_basic/row_column.dart';
+//import 'package:belajar_flutter_basic/row_column.dart';
+import 'package:belajar_flutter_basic/container.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyRowColumn(),
+      //home: MyRowColumn(),
+      home: MyContainer(),
     );
   }
 }
