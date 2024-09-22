@@ -1,5 +1,6 @@
 //import 'package:belajar_flutter_basic/row_column.dart';
-import 'package:belajar_flutter_basic/container.dart';
+//import 'package:belajar_flutter_basic/container.dart';
+import 'package:belajar_flutter_basic/sizebox.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       //home: MyRowColumn(),
-      home: MyContainer(),
+      //home: MyContainer(),
+      home:MySizedBox(),
     );
   }
 }
