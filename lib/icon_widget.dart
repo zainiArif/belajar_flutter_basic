@@ -8,7 +8,7 @@ class MyIconWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Align and Padding Widget'),
+        title: const Text('Icon Widget'),
         centerTitle: true,
         backgroundColor: Colors.lime,
       ),
