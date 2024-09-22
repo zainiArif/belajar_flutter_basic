@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class MyIconWidget extends StatelessWidget {
   const MyIconWidget({super.key});
@@ -11,10 +12,19 @@ class MyIconWidget extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.lime,
       ),
-      body: const Center(
+      body: Center(
         child: Icon(
-          Icons.hotel,
-          size: 100,
+          //Icons.electric_car,
+          MdiIcons.vlc,
+          size: 75,
+          color: const Color.fromARGB(255, 241, 111, 5),
+          // shadows: const [
+          //   Shadow(
+          //     color: Colors.black45,
+          //     offset: Offset(-3, -3),
+          //     blurRadius: 4,
+          //   ),
+          // ],
         ),
       ),
     );
