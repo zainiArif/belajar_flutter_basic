@@ -71,7 +71,28 @@ class _MyTextFieldState extends State<MyTextField> {
                 prefixText: 'Name:',
                 fillColor: Colors.blueGrey.shade50,
                 filled: true,
+                enabledBorder: const OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.purpleAccent,
+                    width: 2,
+                  ),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  gapPadding: 30,
+                  borderSide: BorderSide(
+                    color: Colors.indigo.shade900,
+                    width: 2,
+                  ),
+                ),
+                //disabledBorder: InputBorder.none,
+                disabledBorder: const UnderlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Color.fromARGB(255, 241, 174, 170),
+                    width: 2,
+                  ),
+                ),
               ),
+              //enabled: false,
               //inputFormatters: [UpperCaseTextFormatter()],
               // inputFormatters: [TextInputFormatter.withFunction((oldValue, newValue)
               // => TextEditingValue(text: newValue.text.toUpperCase(),selection: newValue.selection))],
