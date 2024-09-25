@@ -1,7 +1,7 @@
 # belajar_flutter_basic
 <<<<<<< HEAD
 
-A new Flutter project.
+Belajar Project flutter basic
 =======
 Project flutter basic yaitu : membuat project sederhana. memahami statelesWidget dan statefulWidget, serta memahami beberapa widget yang sering digunakan, seperti :
 - center
@@ -15,5 +15,4 @@ Project flutter basic yaitu : membuat project sederhana. memahami statelesWidget
 - icon dan cara menambahkan package icon
 - align
 - padding
-- dll
->>>>>>> 0ed91d6d5c0d0229ed9ea750e9643306ba917bc3
+- textfield
