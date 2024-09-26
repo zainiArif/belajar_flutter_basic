@@ -1,4 +1,4 @@
-import 'package:belajar_flutter_basic/textfield_widget.dart';
+import 'package:belajar_flutter_basic/Scrolling_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home:MyTextField(),
+      home:MyScrollWidget(),
     );
   }
 }
